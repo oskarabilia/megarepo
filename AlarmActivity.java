@@ -37,6 +37,7 @@ public class AlarmActivity extends StandardRootActivity implements OnPageChangeL
 
 	@Override
 	protected void onNewIntent(Intent intent) {
+		Logg.d("Incoming alarm!!!!");
 		setIntent(intent);
 		onNewAlarm();
 	}
